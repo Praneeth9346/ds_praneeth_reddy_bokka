@@ -20,13 +20,13 @@ The goal of this analysis was to explore the relationship between trader behavio
 ## 3. Key Findings & Visualizations
 
 ### 3.1 Trading Volume vs Sentiment
-**Visualization**: `outputs/volume_vs_sentiment.png` and `outputs/volume_vs_sentiment_scatter.png`
+**Visualization**: `outputs/Tradingvol_vs_Marketsentiment.png` and `outputs/Tradingvol_vs_FearGreedIndex.png`
 - The analysis plots daily trading volume against the Fear & Greed Index.
 - Periods of **Extreme Greed** often coincide with heightened market activity and volume spikes, as retail interest peaks.
 - Conversely, **Extreme Fear** can also drive volume due to panic selling, fitting a "U-shaped" volume profile relative to sentiment.
 
 ### 3.2 Profitability (PnL) across Sentiment Zones
-**Visualization**: `outputs/pnl_by_sentiment.png`
+**Visualization**: `outputs/TotalPnL_by_MarketSentiment.png`
 - Box plots of Daily PnL grouped by sentiment classification (Extreme Fear, Fear, Neutral, Greed, Extreme Greed).
 - The distribution highlights the variance in trader performance. High volatility during "Extreme Fear" can lead to both significant gains (for short sellers) and losses (liquidations).
 
@@ -36,3 +36,4 @@ The goal of this analysis was to explore the relationship between trader behavio
 
 ## 4. Conclusion
 Market sentiment is a powerful driver of trading flows. The analysis demonstrates that volume and profitability are not uniform across market conditions. Integrating a sentiment filter—reducing size during choppy "Neutral" periods or looking for mean reversion at "Extremes"—could enhance trading strategy performance.
+
