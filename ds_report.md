@@ -12,7 +12,7 @@ The goal of this analysis was to explore the relationship between trader behavio
 - **Sentiment Data**: Aligned the Bitcoin Fear & Greed Index (`fear_greed_index.csv`) with the trading dates.
 - **Merging**: The datasets were merged on the `Date` field to allow for daily comparison.
 
-### metrics Analyzed
+### Analyzed Metrics
 - **Volume vs Sentiment**: Investigating if extreme sentiment correlates with higher trading activity.
 - **PnL by Sentiment**: analyzing if traders are more profitable during "Fear" or "Greed" periods.
 - **Risk Behavior**: Observing if leverage or position sizes change with sentiment.
@@ -37,5 +37,6 @@ The goal of this analysis was to explore the relationship between trader behavio
 
 ## 4. Conclusion
 Market sentiment is a powerful driver of trading flows. The analysis demonstrates that volume and profitability are not uniform across market conditions. Integrating a sentiment filter—reducing size during choppy "Neutral" periods or looking for mean reversion at "Extremes"—could enhance trading strategy performance.
+
 
 
