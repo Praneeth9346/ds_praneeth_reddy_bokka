@@ -19,7 +19,7 @@ ds_praneeth_reddy_bokka/
 
 ## How to Run
 1.  **Open the Notebook**: Launch `notebook_1.ipynb` in Jupyter Notebook or Google Colab.
-2.  **Dependencies**: Ensure the following Python libraries are installed:
+2.  **Dependencies**: Install following Python libraries :
     ```bash
     pip install pandas matplotlib seaborn
     ```
@@ -27,5 +27,6 @@ ds_praneeth_reddy_bokka/
 
 ## Analysis Overview
 The code aligns daily trading metrics (Volume, PnL, Long/Short Ratio) with the Fear & Greed Index to visualize correlations between market sentiment and trader effectiveness.
+
 
 
