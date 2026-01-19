@@ -31,9 +31,11 @@ The goal of this analysis was to explore the relationship between trader behavio
 - The distribution highlights the variance in trader performance. High volatility during "Extreme Fear" can lead to both significant gains (for short sellers) and losses (liquidations).
 
 ### 3.3 Sentiment-Driven Behavior
+- **Output**: `csv_files/final_analysis_output.csv`
 - **Long/Short Ratio**: Traders tend to be net long during Greed phases, often leading to overcrowding.
 - **Contrarian Opportunities**: The data suggests that improved risk-adjusted returns might be found by taking contrarian positions when sentiment reaches extreme levels (e.g., >75 or <25).
 
 ## 4. Conclusion
 Market sentiment is a powerful driver of trading flows. The analysis demonstrates that volume and profitability are not uniform across market conditions. Integrating a sentiment filter—reducing size during choppy "Neutral" periods or looking for mean reversion at "Extremes"—could enhance trading strategy performance.
+
 
