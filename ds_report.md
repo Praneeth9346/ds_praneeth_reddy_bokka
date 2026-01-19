@@ -1,4 +1,4 @@
-# Data Science Report: Trader Behavior vs Market Sentiment
+# Data Science Assignment Report: Trader Behavior Insights
 
 ## 1. Objective
 The goal of this analysis was to explore the relationship between trader behavior (profitability, volume, leverage choice) and overall market sentiment (Fear vs. Greed Index). Understanding these correlations can help in developing sentiment-aware trading strategies.
@@ -37,6 +37,14 @@ The goal of this analysis was to explore the relationship between trader behavio
 
 ## 4. Conclusion
 Market sentiment is a powerful driver of trading flows. The analysis demonstrates that volume and profitability are not uniform across market conditions. Integrating a sentiment filter—reducing size during choppy "Neutral" periods or looking for mean reversion at "Extremes"—could enhance trading strategy performance.
+**Final Outputs:**
+    -Images(Graphs): 1.`outputs/Tradingvol_vs_Marketsentiment.png` 
+                    2.`outputs/Tradingvol_vs_FearGreedIndex.png` 
+                    3.`outputs/TotalPnL_by_MarketSentiment.png`
+                 
+  - CSV File: `csv_files/final_analysis_output.csv`
+    
+
 
 
 
