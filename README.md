@@ -6,9 +6,7 @@
 ds_praneeth_reddy_bokka/
 ├── notebook_1.ipynb     
 ├── csv_files/          
-│   ├── historical_data.csv
-│   ├── fear_greed_index.csv
-│   └── processed_daily_data.csv
+│   └── final_analysis_output.csv
 ├── outputs/           
 │   ├── Tradingvol_vs_Marketsentiment.png
 │   |── Tradingvol_vs_FearGreedIndex.png
@@ -27,6 +25,7 @@ ds_praneeth_reddy_bokka/
 
 ## Analysis Overview
 The code aligns daily trading metrics (Volume, PnL, Long/Short Ratio) with the Fear & Greed Index to visualize correlations between market sentiment and trader effectiveness.
+
 
 
 
