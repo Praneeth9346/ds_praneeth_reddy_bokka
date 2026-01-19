@@ -1,9 +1,9 @@
-# Data Science Assignment: Trader Behavior Analysis
+# Data Science Assignment: Trader Behavior Insights
 
 ## Project Structure
 
 ```
-ds_solution/
+ds_praneeth_reddy_bokka/
 ├── notebook_1.ipynb       # Main analysis notebook (Jupyter/Colab compatible)
 ├── csv_files/             # Raw and processed data files
 │   ├── historical_data.csv
@@ -27,3 +27,4 @@ ds_solution/
 
 ## Analysis Overview
 The code aligns daily trading metrics (Volume, PnL, Long/Short Ratio) with the Fear & Greed Index to visualize correlations between market sentiment and trader effectiveness.
+
