@@ -28,4 +28,8 @@ The code aligns daily trading metrics (Volume, PnL, Long/Short Ratio) with the F
 
 
 
+##Refer `ds_report.md` for detailed report.
+
+
+
 
